@@ -23,14 +23,13 @@ docker run -d -e YAPI_DB_SERVERNAME=192.168.1.1 -e YAPI_MAIL_ENABLE=false -p 300
 
 #### 数据库配置
 
-| 环境变量名称        | 类型   | 说明                        | 示例       |
-| ------------------- | ------ | --------------------------- | ---------- |
-| YAPI_DB_SERVERNAME  | string | MongoDB 服务地址            | yapi-mongo |
-| YAPI_DB_PORT        | number | MongoDB 服务端口            | 27017      |
-| YAPI_DB_DATABASE    | string | 使用的 MongoDB 数据库       | yapi       |
-| YAPI_DB_USER        | string | 登录 MongoDB 服务的用户名   | yapi       |
-| YAPI_DB_PASS        | string | 登录 MongoDB 服务的用户密码 | yapi       |
-| YAPI_DB_AUTH_SOURCE | string | MongoDB 身份认证所用库      | admin      |
+| 环境变量名称       | 类型   | 说明                        | 示例       |
+| ------------------ | ------ | --------------------------- | ---------- |
+| YAPI_DB_SERVERNAME | string | MongoDB 服务地址            | yapi-mongo |
+| YAPI_DB_PORT       | number | MongoDB 服务端口            | 27017      |
+| YAPI_DB_DATABASE   | string | 使用的 MongoDB 数据库       | yapi       |
+| YAPI_DB_USER       | string | 登录 MongoDB 服务的用户名   | yapi       |
+| YAPI_DB_PASS       | string | 登录 MongoDB 服务的用户密码 | yapi       |
 
 #### 邮件配置
 
