@@ -17,9 +17,6 @@ ENV YAPI_SERVER_PORT=3000 \
 	YAPI_MAIL_AUTH_PASS=admin
 
 RUN set -x \
-    && echo "https://mirror.tuna.tsinghua.edu.cn/alpine/v3.4/main" > /etc/apk/repositories \
-    && echo "https://mirror.tuna.tsinghua.edu.cn/alpine/v3.4/community" >> /etc/apk/repositories \
-    && apk update \
     && apk add --no-cache git make openssl gcc python \
     && mkdir yapi \
     && cd yapi \
