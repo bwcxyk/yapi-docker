@@ -8,6 +8,10 @@
 docker run -d -e YAPI_DB_SERVERNAME=192.168.1.1 -e YAPI_MAIL_ENABLE=false -p 3000:3000 yaokun/yapi:latest
 ```
 
+默认管理员账户为 admin@bwcxtech.com
+
+默认密码 ymfe.org
+
 通过环境变量配置的选项会覆盖通过 `config.json` 或者 `config.js` 配置的选项。
 
 #### 基础配置
